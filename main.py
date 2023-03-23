@@ -8,7 +8,7 @@ from transformers import pipeline
 TAG_TRASHHOLD=0.85
 
 AUTHOR = os.getenv("AUTHOR") if os.getenv("AUTHOR") else os.getenv("USER")
-DATE = datetime.now()
+DATE = datetime.datetime.now()
 
 tags = ["education",
         "programming",
