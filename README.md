@@ -1,4 +1,4 @@
-# Note Metadata Maker
+# Note Metadata Maker (Work in progress)
 
 Note Metadata Maker is a tool for generating YAML front-matter for your notes written in Python.
 
