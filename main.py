@@ -91,7 +91,7 @@ def parse_file(file, summarizer, classifier):
         "author": AUTHOR,
         "date": DATE,
         "tags": found_tags,
-        "description": summary["summary_text"],
+        "description": summary[0]["summary_text"],
     }
 
     return metadate
