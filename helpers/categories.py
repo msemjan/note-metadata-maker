@@ -94,7 +94,7 @@ EDITOR = "Editor"
 SOFTWARE = "Software"
 
 categories = {
-    "algorithm": [ALGORITHM], 
+    "algorithm": [ALGORITHM],
     "address": [PERSONAL_INFO],
     "aws": [CLOUD, TECHNOLOGY, PROGRAMMING],
     "backlog": [PROJECT_MANAGEMENT, PERSONAL_INFO],

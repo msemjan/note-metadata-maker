@@ -27,6 +27,10 @@ The summarization of the text was done with the [Hugging Face](https://huggingfa
 
 At the end I didn't use Hugging face library for generating tags. It wasn't precise enough to use without fine-tuning the model, and I didn't have time and will to create a training data set with labeled notes. So I've cheated a little bit. My files have a fairly consistent naming convention, e.g. a note about AWS  Lambda functions would be named `AWS_lambda.md`, or a note about creating a Git repository on a flash drive would be named `git_how_to_create_a_repository_on_flash_drive.md`. I always use underscores for separating words, and I try to use descriptive file names. Because of this naming convention I can guess what tags should be assigned to each note, and I've created a simple helper function, which will generate a list of tags based on the name of the file.
 
+## Installation
+
+Run `make install` to install all dependencies.
+
 ## TODO
 
 - [ ] Add the language detection and use the correct model for the language
